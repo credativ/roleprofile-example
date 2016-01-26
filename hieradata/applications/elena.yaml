@@ -6,9 +6,9 @@
 java_version: '6'
 
 war_files:
-	- 'foobar.war'
-	- 'test1.war'
-	- 'test2.war'
+  - 'foobar.war'
+  - 'test1.war'
+  - 'test2.war'
 
 tomcat_users:
-	'tomcat_user': 'password'
+  'tomcat_user': 'password'

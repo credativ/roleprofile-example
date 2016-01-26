@@ -2,7 +2,7 @@
 # (Defaults für die appserver Rolle)
 
 tomcat_defaults:
-	user: 'tomcat'
-	manage_user: 'true'
-	manage_group: 'true'
+  user: 'tomcat'
+  manage_user: 'true'
+  manage_group: 'true'
 
