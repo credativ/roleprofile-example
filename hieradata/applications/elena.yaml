@@ -1,0 +1,14 @@
+# applications/elena.yaml
+#
+# Applikationsspezifische Daten für die Applikation Elena
+
+# Elena läuft nur mit Java 6!
+java_version: '6'
+
+war_files:
+	- 'foobar.war'
+	- 'test1.war'
+	- 'test2.war'
+
+tomcat_users:
+	'tomcat_user': 'password'

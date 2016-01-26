@@ -1,0 +1,8 @@
+# Parameter die nur für die Role appserver gelten
+# (Defaults für die appserver Rolle)
+
+tomcat_defaults:
+	user: 'tomcat'
+	manage_user: 'true'
+	manage_group: 'true'
+

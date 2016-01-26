@@ -1,11 +1,14 @@
 class profile::postgresql {
 	$postgres_instances = hiera("postgres_instances")
+	$postgres_databases = hiera("databases")
+	# ... weitere Parameter
+	# z.B. Grants und dergleichen
 
 	$postgres_defaults = {
 		version => '9.4',
 		port	=> '5432',
 	}
-	
+
 	$postgres_instances.each |$instance_name, $options| {
 		$pg_options = merge($postgres_defaults, $options)
 		

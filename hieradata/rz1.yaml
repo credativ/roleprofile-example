@@ -1,0 +1,8 @@
+# rz1.yaml - parameters, die für RZ1 gelten
+# z.B. User Accounts für Mitarbeiter des Rechenzentrums
+# 
+
+users:
+ - frank.mueller
+ - bofh
+
